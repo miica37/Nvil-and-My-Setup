@@ -7,80 +7,109 @@ Selections
 	:align: center
 
 
-*******************
-Selection Tools <Q>
-*******************
+*********************************************************************
+Selection Tool <Q> (StreamLine Tool)
+*********************************************************************
 
-Toggle visibility of Transform Manipulator
+.. admonition:: Reference
+	:class: refbox
 
-.. note::
-	Rationale behind using <Q> key: Copy from Maya.
+	:Default Hotkey: <Q>
+
+Selection Tool comes as a StreamLine tool. It has 3 functions mapped to the 3 mouse buttons. The first is a lasso selection, second one is lasso selection with raycast, third one is rectangle selection with raycast (See the setup below). Tap <Q> to toggle visibility of transforms Manipulator.
+
+Default setup for Selection Tool (NO CHANGE):
+
+.. image:: /images/Selection-Tool-setup.jpg
 
 
-*******************
+*********************************************************************
 Loop Select <Alt+E>
-*******************
+*********************************************************************
 
-Select loop.
+.. admonition:: Reference
+	:class: refbox
+
+	:Mode: Subobject
+	:Menu:   :menuselection:`Selection --> Loop Select`
+	:Default Hotkey: <Edge> Double click an edge; <Face> Select a face, < Ctrl+Shift > double click on an adjacent face; <Vertex> Select a vertex, < Ctrl+Shift > double click on an adjacent vertex
+
+Select loop. Works on vertex, edge and face mode. Actually you don't need to use hotkey for this because double click can also achive the same thing.
 
 .. image:: /images/Loop-Select.gif
 	:align: center
 
 
 .. note::
-	Rationale behind using <Alt+E> key: Silo.
+	Rationale behind using < Alt+E > key: Carried from Silo.
 
-.. note::
-	Default Nvil hotkey for Loop Select: Double click on edge
-
-
-*******************
+*********************************************************************
 Ring Select <Alt+R>
-*******************
+*********************************************************************
 
-Select ring.
+.. admonition:: Reference
+	:class: refbox
+
+	:Mode: Subobject
+	:Menu:   :menuselection:`Selection --> Ring Select`
+	:Default Hotkey: < H >
+
+Select ring. Works on vertex, edge and face mode. 
 
 .. image:: /images/Ring-Select.gif
 	:align: center
 
 .. note::
-	Rationale behind using <Alt+E> key: Silo.
+	Rationale behind using < Alt+E > key: Carried from Silo.
 
-.. note::
-	Default Nvil hotkey for this: <H>
-
-******************************
+*********************************************************************
 Grow/Shrink Loop Sel <Shift+E>
-******************************
+*********************************************************************
 
+.. admonition:: Reference
+	:class: refbox
+
+	:Menu:           (NOT FOUND UNDER MENU)
+	:Set:            :menuselection:`Subobject Shortcut Tools --> Grow/Shrink Loop Selection`
+	:Usage:          "Once hotkeys pressed, scroll WMB up/down to perform action."
+	:Default Hotkey: < None >
 
 .. image:: /images/Grow-Shrink-Loop-Selection.gif
 	:align: center
 
 .. note::
-	Rationale behind using <Shift+E> key: Following <Alt+E> used in Loop Select.
+	Rationale behind using < Shift+E > key: Following < Alt+E > used in Loop Select.
 
-.. note::
-	Default Nvil hotkey for this: <None>
-
-
-******************************
+*********************************************************************
 Grow/Shrink Ring Sel <Shift+R>
-******************************
+*********************************************************************
+
+.. admonition:: Reference
+	:class: refbox
+
+	:Menu:           (NOT FOUND UNDER MENU)
+	:Set:            :menuselection:`Subobject Shortcut Tools --> Grow/Shrink Ring Selection`
+	:Usage:          "Once hotkeys pressed, scroll WMB up/down to perform action."
+	:Default Hotkey: < None >
 
 .. image:: /images/Grow-Shrink-Ring-Selection.gif
 	:align: center
 
 .. note::
-	Rationale behind using <Alt+E> key: Following <Alt+R> used in Ring Select.
+	Rationale behind using < Alt+E > key: Following < Alt+R > used in Ring Select.
 
-.. note::
-	Default Nvil hotkey for this: <None>
-
-
-**********************************************************
+*******************************************************************************
 Similar Facing <Y> and Similar Facing (Connection) <Alt+Y>
-**********************************************************
+*******************************************************************************
+
+.. admonition:: Reference
+	:class: refbox
+
+	:Mode:           Subobject
+	:Menu:           :menuselection:`Selection --> Similar Selection --> Select Similar Facing`
+	:Menu:           :menuselection:`Selection --> Similar Selection --> Select Similar Facing(Connection Only)`
+	:Usage:          "Select subobjects which Face roughly in the same direction as the selected/hilighed subobject. The threshold value can be adjusted WMB while its hotkey is pressed down and the selection will happen in real time."
+	:Default Hotkey: < Double MMB click the same polygon >
 
 There are two tools for select subobjects which face roughly in the same direction as the selected/highlighted subobjects. The one without connection will apply selection all through the model, the one with connection will apply selection to connected subobjects. I use the one with connection most of the time, unfortunately it doesn't support threshold adjust with mouse scrolling. So if you need to adjust the threshold without going through Preference Window, you can activate the other Similar Facing first and adjust the value, then switch back to Similar Facing (Connection).
 
@@ -88,36 +117,49 @@ There are two tools for select subobjects which face roughly in the same directi
 	:align: center
 
 .. note::
-	Rationale behind using <Y/Alt+Y>  key: Nvil actually has a default hotkey for this is which is quite good, but this tool also has an option to let us adjust the threshold value with mouse scrolling up and down, so setting the hotkey to MMB click will prevent us from using that option. If you want to change the threshold you would need to open up the Preference Window and set the value manually (which is not quite intuitive compared to scrolling mouse wheel and seeing changes update in realtime).
+	Rationale behind using < Y/Alt+Y >  key: Nvil actually has a default hotkey for this is which is quite good, but this tool also has an option to let us adjust the threshold value with mouse scrolling up and down, so setting the hotkey to MMB click will prevent us from using that option. If you want to change the threshold you would need to open up the Preference Window and set the value manually (which is not quite intuitive compared to scrolling mouse wheel and seeing changes update in realtime).
 
 	Y is quite an odd choice, and I have no good reasons. It just happens that the hotkeys that are nearest to ASDF (which my fingers are staying on top 99% of the time) are all used up (QWER, ZXCV, T for extrude, G for Grid, B for Bevel), and I don't want to use any modifier keys with it. So I choose 'Y'.
 
-.. note::
-	Default Nvil hotkey for this: <Double MMB click the same polygon>
-
-
-******************************
+*********************************************************************
 Invert Selection <Ctrl+I>
-******************************
+*********************************************************************
 
-Invert Selection. Hotkey is same as Nvil default. Put here as reference.
+.. admonition:: Reference
+	:class: refbox
 
-****************************
-Full Grow Selection <Ctrl+A>
-****************************
+	:Mode: Subobject
+	:Menu:   :menuselection:`Selection --> Inverse Selection`
+	:Default Hotkey: < Ctrl+I >
 
-Grow selection to whole mesh connected with selected subobject. This can also be done with double clicking subobject.
+*********************************************************************
+Select All <Ctrl+A> (Composite Tool)
+*********************************************************************
 
-(I was actually looking for a tool that will select all the meshes inside an object though. I will go through this one and might just remove the hotkey for this.)
+When your object is composed of multiple separate meshes (geometry islands), this tool helps select all the meshes. I couldn't find a tool to do this in Nvil so I created a composite tool.
 
-
-.. image:: /images/Full-Grow-Selection.gif
+.. image:: /images/Select-All.gif
 	:align: center
 
+::
 
-****************************
-Soft Selection <Alt+Shift+S>
-****************************
+	 Composite Setup
+	-----------------
+	* Common Modeling Shortcut Tools -> Save Object Selection Mode^
+	* Subobject Shortcut Tools -> P_Math Select Vertices With Edges(*)
+		Params: LargerTan(true); Value(1)
+	* Common Modeling Shortcut Tools -> Restore Object Selection Mode^
+
+*********************************************************************
+Soft Selection <Alt+Shift+S> (StreamLine Tool)
+*********************************************************************
+
+.. admonition:: Reference
+	:class: refbox
+
+	:Mode: Subobject
+	:Menu:   :menuselection:`Edit --> Options --> Soft Selection Options --> Soft Selection Enabled`
+	:Default Hotkey: < Alt+X1 > (I haven't found out what X1 is, but I am using the StreamLine version: StreamLine Basic Tools -> Generic Tools -> Increase/Decrease Soft Selection)
 
 Soft Selection.
 
@@ -125,52 +167,60 @@ Soft Selection.
 	:align: center
 
 
-.. note::
-	Rationale behind using <Alt+Shift+S> key: Used to this key coming from Silo.
+Setup for streamline tool:
+
+.. image:: /images/Soft-Selection-setup.jpg
 
 .. note::
-	Default Nvil hotkey for this: Nvil has Modeling Options -> Soft Selection Enabled and <Alt+X1> is its hotkey (I have no idea what is X1 actually). But I am using the StreamLine version: StreamLine Basic Tools -> Generic Tools -> Increase/Decrease Soft Selection
+	Rationale behind using < Alt+Shift+S > key: Carried from Silo.
 
-************************
+*********************************************************************
 Select Similar <Shift+M>
-************************
+*********************************************************************
+.. admonition:: Reference
+	:class: refbox
 
-Nvil: "Select subobjects which have similar shape or surrounding shape to the selected/hilighed subobjects. The shreshold value can be adjusted by WMB while its hotkey is pressed down and the selection will happen in real time."
+	:Mode:           Subobject
+	:Menu:           :menuselection:`Selection --> Similar Selection --> Select Similar`
+	:Usage:          "Select subobjects which have similar shape or surrounding shape to the selected/hilighed subobjects. The threshold value can be adjusted by WMB while its hotkey is pressed down and the selection will happen in real time."
+	:Default Hotkey: < None >
 
 .. image:: /images/Select-Similar.gif
 	:align: center
 
 .. note::
-	Rationale behind using <Y/Alt+Y> key: Nvil actually has a default hotkey for this is which is quite good, but this tool also has an option to let us adjust the threshold value with mouse scrolling up and down, so setting the hotkey to MMB click will prevent us from using that option. If you want to change the threshold you would need to open up the Preference Window and set the value manually (which is not quite intuitive compared to scrolling mouse wheel and seeing changes update in realtime).
+	Rationale behind using < Shift+M > key: WIP
 
-	Y is quite an odd choice, and I have no good reasons. It just happens that the hotkeys that are nearest to ASDF (which my fingers are staying on top 99% of the time) are all used up (QWER, ZXCV, T for extrude, G for Grid, B for Bevel), and I don't want to use any modifier keys with it. So I choose 'Y'.
-
-.. note::
-	Default Nvil hotkey for this: <None>
-
-***************************************
+*********************************************************************
 Symmetrize Selection <Ctrl+Alt+Shift+M>
-***************************************
+*********************************************************************
 
-Works on symmetry model. Select the same subobjects on different side. Can be useful for marking seams I think, but I haven't have the need to use this tool much yet.
+.. admonition:: Reference
+	:class: refbox
+
+	:Mode:           Subobject
+	:Menu:           :menuselection:`Selection --> Symmetry Selection --> Symmetrize Selection`
+	:Default Hotkey: < None >
+
+Works on symmetry model. Select the same subobjects on different side. Can be useful for marking seams I think.
 
 .. image:: /images/Symmetrize-Selection.gif
 	:align: center
 
 .. note::
-	Rationale behind using <Ctrl+Alt+Shift+M> key: 'M' in 'SyMMetrize', maybe that will makes it easier to remember. It's also using all the 3 modifier keys because I don't remember using this tool much.
+	Rationale behind using < Ctrl+Alt+Shift+M > key: 'M' in 'SyMMetrize', maybe that will makes it easier to remember. It's also using all the 3 modifier keys because I don't remember using this tool much (yet).
 
-.. note::
-	Default Nvil hotkey for this: <None>
-
-****************************
+*********************************************************************
 Isolate Selection <Numpad />
-****************************
+*********************************************************************
+
+.. admonition:: Reference
+	:class: refbox
+
+	:Menu:   :menuselection:`Selection --> Isolate Selection`
+	:Default Hotkey: < None >
 
 Isolate Selection
 
 .. note::
-	Rationale behind using <Numpad /> key: Blender.
-
-.. note::
-	Default Nvil hotkey for this: <None>
+	Rationale behind using < Numpad / > key: Carried from Blender

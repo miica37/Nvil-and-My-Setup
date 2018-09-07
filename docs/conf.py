@@ -154,3 +154,27 @@ texinfo_documents = [
      author, 'NvilandMySetup', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+def ultimateReplace(app, docname, source):
+   result = source[0]
+   for key in app.config.ultimate_replacements:
+      result = result.replace(key, app.config.ultimate_replacements[key])
+   source[0] = result
+
+ultimate_replacements = {
+    "< " : ":guilabel:`",
+    " >" : "`"
+}
+
+def setup(app):
+    print(app)
+    app.add_stylesheet('css/customstyle.css')
+    app.add_config_value('ultimate_replacements', {}, True)
+    app.connect('source-read', ultimateReplace)
+
+
+
+
+
+
+

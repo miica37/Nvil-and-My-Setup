@@ -6,42 +6,57 @@ Subdivisions
 .. image:: /images/Subdivisions-list.jpg
 	:align: center
 
-
 .. image:: /images/Subdivisions.gif
 	:align: center
 
-In Maya, this is the <3> key. In Blender, it's the Subdivisions modifier. If you used Silo before, that will be <C> and <V>. For my config, I am adopting Silo's style.
+Nvil use < \` > primarily for subdivision operations. Default hotkey to toggle subdivision is < \` >, to collapsing subdivision is < Alt+\` > and to set the subdivision levels is < \`+1/2/3/4 >. I preserve all these in my config.
 
-******************************
+I am used to Silo's < C > and < V > to step up and down subdivision levels. In Maya, we use < 3 > to toggle subdivision and use < Page Up > < Page Down > to increase or decrease subdivision levels. Having a toggle key is a common approach and I think it's fine. I definitely use < 3 > inside Maya a lot. But I rarely use toggle in Nvil because < C > and < V > alone are fast enough. I just < C > < C > < V > < V > all the way, the keys are also very close to ASDF, so I can execute them almost in an instant.
+
+**Subdivision level cap**: In gif animation above, I pressed < C > four times at the beginning, but the fourth press doesn't increase the level any further because the level has been capped to 3 in Preference -> General -> Subdivision increment cap level.
+
+*********************************************************************
+Toggle Subdivision <\`>
+*********************************************************************
+
+.. admonition:: Reference
+	:class: refbox
+
+	:Menu:   :menuselection:`Geometry --> Subdivision --> Toggle Subdivision`
+	:Default Key:   < \` > (NO CHANGE)
+
+*********************************************************************
 Subdivision Level <\`+1/2/3/4>
-******************************
+*********************************************************************
 
-Nvil use <\`> primarily for subdivision operations. Default hotkey to toggle subdivision is <\`>, <Alt+`> for collapsing subdivision and <\`+1/2/3/4> to set the subdivision levels.
+.. admonition:: Reference
+	:class: refbox
 
-For my config, since I am used to Silo style, I just use <C> and <V> all the time. In Maya, we can use <3> to toggle subdivision and use <Page Up> <Page Down> to increase or decrease subdivision levels. Having a toggle key is a common approach and I think it is fine. I definitely use <3> inside Maya all the time. But I don't use toggle in Nvil because <C> and <V> alone are fast enough. I just <C> <C> <V> <V> all the way, the keys are also very close to ASDF, so I can execute them almost in an instant.
+	:Menu:   :menuselection:`Geometry --> Subdivision --> Level_1/2/3/4`
+	:Default Key:   < \`+1/2/3/4 > (NO CHANGE)
 
-Subdivision level cap
-=====================
-
-In the gif above, I press <C> four times at the beginning, but the fourth press doesn't increase the level any further because the level has been capped to 3 in Preference -> General -> Subdivision increment cap level.
-
-****************************
+*********************************************************************
 Collapse Subdivision <Alt+`>
-****************************
+*********************************************************************
 
-Collapse Subdivisions
+.. admonition:: Reference
+	:class: refbox
 
-.. note::
-	Default Nvil hotkey for this: <Alt+`>
+	:Menu:   :menuselection:`Geometry --> Subdivision --> Collapse Subdivision`
+	:Default Key:   < Alt+` > (NO CHANGE)
 
-***********************************
+*********************************************************************
 Increase/Decrease Subdivision <C/V>
-***********************************
+*********************************************************************
 
-Increase and Decrease Subdivision
+.. admonition:: Reference
+	:class: refbox
+
+	:Menu:      :menuselection:`Geometry --> Subdivision --> Increase Subdivision`
+	:Menu:      :menuselection:`Geometry --> Subdivision --> Decrease Subdivision`
+	:Default Key:   < None >
+
+Increase and Decrease Subdivision. Gif animation above shows how I use this set of hotkeys.
 
 .. note::
-	Rationale behind using <C/V> key: I have set the subdivision operations to behave like Silo for my config. (I hope you have even heard of this software, it used to be a really nice modeling application, until development seems to stalled for years).
-
-.. note::
-	Default Nvil hotkey for this: <None>
+	Rationale behind using < C/V > key: Carried from Silo.

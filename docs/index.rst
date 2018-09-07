@@ -10,7 +10,7 @@ Nvil & My Setup
 	:align: center
 
 .. toctree::
-	:maxdepth: 1
+	:maxdepth: 2
 	:caption: Contents:
 
 	radial-menus.rst
