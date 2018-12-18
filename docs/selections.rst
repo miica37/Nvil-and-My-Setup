@@ -119,7 +119,7 @@ There are two tools for select subobjects which face roughly in the same directi
 .. note::
 	Rationale behind using < Y/Alt+Y >  key: Nvil actually has a default hotkey for this is which is quite good, but this tool also has an option to let us adjust the threshold value with mouse scrolling up and down, so setting the hotkey to MMB click will prevent us from using that option. If you want to change the threshold you would need to open up the Preference Window and set the value manually (which is not quite intuitive compared to scrolling mouse wheel and seeing changes update in realtime).
 
-	Y is quite an odd choice, and I have no good reasons. It just happens that the hotkeys that are nearest to ASDF (which my fingers are staying on top 99% of the time) are all used up (QWER, ZXCV, T for extrude, G for Grid, B for Bevel), and I don't want to use any modifier keys with it. So I choose 'Y'.
+	Y is an odd choice, I have no good reason to use this key. It just happens that the hotkeys that are nearest to ASDF (which my fingers are staying on top 99% of the time) are all used up (QWER, ZXCV, T for extrude, G for Move(Grab), B for Bevel), and I don't want to use any modifier keys with it. So I choose 'Y'.
 
 *********************************************************************
 Invert Selection <Ctrl+I>
@@ -136,7 +136,7 @@ Invert Selection <Ctrl+I>
 Select All <Ctrl+A> (Composite Tool)
 *********************************************************************
 
-When your object is composed of multiple separate meshes (geometry islands), this tool helps select all the meshes. I couldn't find a tool to do this in Nvil so I created a composite tool.
+When an object is composed of multiple separate meshes (geometry islands), this tool helps select all the meshes. I couldn't find a tool to do this in Nvil so I created a composite tool.
 
 .. image:: /images/Select-All.gif
 	:align: center
@@ -223,4 +223,4 @@ Isolate Selection <Numpad />
 Isolate Selection
 
 .. note::
-	Rationale behind using < Numpad / > key: Carried from Blender
+	Rationale behind using < Numpad / > key: Immitate Blender

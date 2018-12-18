@@ -18,7 +18,7 @@ Open the Preference Window.
 	:align: center
 
 .. note::
-	Rationale behind using < F1 > key: Isn't < F1 > key being widely used for Help? I find that I almost never rely on that hotkey on any applications though. That doesn't mean I didn't use Nvil's Help, I did opened up the Nvil 1.0 Help manual sometimes, but I prefer to access it through the Menu.
+	Rationale behind using < F1 > key: Although < F1 > key is commonly used for Help function, I find that I rarely use this key for help. I open the Help Manual through the menu when I need it.
 
 .. note::
 	Default Nvil hotkey for this: < None >
@@ -30,5 +30,6 @@ Mini/Maximize Viewport <F2>
 Toggle Single and Quad View. I rarely ever use quad view. I find that Nvil's Snap View function is much more intuitive if I ever need to work on the different orthographics view. Check out :ref:`Snap View <snap_view>`.
 
 .. note::
-	Rationale behind using < F2 > key: Hmm... it's been a long time ago since I switch to use this hotkey and I have totally forgot why I use < F2 > unfortunately...
+	Rationale behind using < F2 > key: It's a long time since I use this... can't remember why..
+
 
