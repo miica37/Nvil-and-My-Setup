@@ -6,3 +6,5 @@ docs/~Notes
 make.bat
 Makefile
 
+*.sublime-project
+*.sublime-workspace

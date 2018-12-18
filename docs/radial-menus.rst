@@ -23,10 +23,10 @@ A radial menu for Customize Tools, Customize Radial Menus, Customize Composite T
 :: _orientation_radial_menu:
 
 *********************************************************************
-Orientation <Ctrl+Space>
+Orientation <Alt+Q>
 *********************************************************************
 
-A radial menu to set the orientation for Manipulator Tools.
+A radial menu to set the orientation of Manipulator (Gizmo).
 
 I actually just use Pivot+Orientation(Selection) most of the time, and Orientation(World) on some cases. I think I almost never used the Pivot+Orientation(Object)
 
@@ -34,7 +34,7 @@ I actually just use Pivot+Orientation(Selection) most of the time, and Orientati
 	:align: center
 
 .. note::
-	Rationale behind using < Ctrl+Space > key: It's after watching `Heavypoly's tutorial <https://www.youtube.com/user/kakapoopie/videos>`_. I saw him using < Space > for a few of his pie menus and thought Hey I could make use of the spacebar too. By the way, he's using < Shift+Space > for his Transforms pie menu, which opens up the menu for orientation, pivots and other stuffs, but I got < Shift+Space > used for Snap View already.
+	Rationale behind using < Alt+Q > key: I tried to use < Ctrl + Space > as the hotkey after watching `Heavypoly's tutorial <https://www.youtube.com/user/kakapoopie/videos>`_. I saw him using < Space > for a few of his pie menus and thought I could make use of the spacebar too. He is using < Shift+Space > for his Transforms pie menu, which opens up the menu for orientation, pivots and other stuffs, but I got < Shift+Space > used for Snap View already. I found that < Ctrl + Space > conflict with some other hotkey, so I switched back to < Alt + Q > which I use long time ago.
 
 
 *********************************************************************

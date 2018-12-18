@@ -21,7 +21,7 @@ Snapping can be turned on and off (using hotkey < U > or through a button on a U
 .. image:: /images/Snapping.gif
 	:align: center
 
-Nvil's default snapping UI is utilizing a dropdown menu. I find that only one of them can be turn on at a time. It is also not easy to glance at their status (there is Show Snapping State in Heads Up display but icons should be more easily recognizable than text I guess).
+Nvil's default snapping UI is utilizing a dropdown menu. I find that only one of them can be turn on at a time. It is also not easy to see their status (there is Show Snapping State in Heads Up display but they are in texts which can be less readable than the icons on toolbar).
 
 .. image:: /images/Nvil-default-snapping-ui.jpg
 	:align: center
@@ -33,7 +33,7 @@ Nvil's default snapping UI is utilizing a dropdown menu. I find that only one of
 Axis Move/Rotate/Scale <W/E/R> (StreamLine Tool)
 *********************************************************************
 
-Axis Move/Rotate/Scale are a set of streamline tools that I played with recently. While learning Blender, I grown fond of its Grab/Rotate/Scale combo with x/y/z, for example < G > followed by < X > will translate selected object in X Axis. You can also specify the value of how much you want to transform, which is quite handy when rotating, for example < R >, < Z >, < 9 >, < 0 > will rotate selected object by 90 degree in Z. I am pretty stoked when I found Nvil also has this option, albeit Blender's one still has a better feel to it.
+I have only tried out Axis Move/Rotate/Scale recently. While learning Blender, I grown fond of its Grab/Rotate/Scale combo with x/y/z, for example < G > followed by < X > will translate selected object in X Axis. You can also specify the value of how much you want to transform, which is quite handy when rotating, for example < R >, < Z >, < 9 >, < 0 > will rotate selected object by 90 degree in Z. I was quite happy to see Nvil also has this option, although I think Blender still has a much better implementation.
 
 .. image:: /images/Axis-Move-and-Scale.gif
 	:align: center

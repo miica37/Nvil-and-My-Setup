@@ -19,7 +19,7 @@ Vertex/Edge/Face/Object Mode <A/S/D/F>
 
 One of the most heavily used operation in poly modeling is no doubt switching between subobject modes. Back in the days when I still use Maya, I found this little 3d modeling application called Silo and one of the workflow it introduce is using ASDF to switch between subobject modes. It's been a long time now, I think at first it takes a bit of time to get used to, maybe a few days or a week? I can't remember but I got used to it. I have ever since stubbornly refused to use any other approach.
 
-You can try out other approach like radial menu (Maya style) or the < 1/2/3/4 > keys combination (Nvil Default, `Blender 2.8 too it seems <https://developer.blender.org/T55162>`_). I don't prefer < 1/2/3/4 > though because you need to move your left hand to reach it and move it back to ASDF.
+You can try out other approach like radial menu (Maya style) or the < 1/2/3/4 > keys combination (Nvil Default, `Blender 2.8 too it seems <https://developer.blender.org/T55162>`_). I don't like much < 1/2/3/4 > though because you need to move your left hand to reach it and move it back to ASDF.
 
 Marking Menus (Maya)
 ====================

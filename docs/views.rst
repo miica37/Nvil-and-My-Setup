@@ -36,7 +36,7 @@ Undo View <[> and Redo View <]>
 	:Menu:      :menuselection:`View --> Redo View$`
 	:Default Hotkey: < Shift+Z > to undo view and < Ctrl+Y > to redo view.
 
-I haven't found much need to undo and redo my view, but on the occasion when it is needed, having a hotkey for them will be handy.
+I haven't found much need to undo and redo my view, but on the occasion when it is needed, having a hotkey for them can be handy.
 
 .. note::
 	Rationale behind using < [ > and < ] > key: Carried from Maya.
@@ -53,7 +53,7 @@ Fog Adjust <Alt+F> (StreamLine Tool)
 	:Set: 3 new basic streamline tool, Adjust FogStart/End/Intensity. :ref:`(See the setup below) <fog_adjust_setup>`
 	:Default Hotkey: < None >
 
-Fog is added on `quite recently <http://samardac.com/nvil-forum//index.php/topic,4578.msg17348.html#msg17348>`_ (6th April 2018). I have always felt that material shading in Nvil is a bit contrasty compared to other 3d applications, this feature helps lift up the shadows area to create a softer and nicer look. I always have Fog on.
+Fog is added on `quite recently <http://samardac.com/nvil-forum//index.php/topic,4578.msg17348.html#msg17348>`_ (6th April 2018). I have always felt that material shading in Nvil less appealing than other 3d apps, this feature helps lift up the shadows area to create a softer and nicer look.
 
 Note: < Alt-F > is not a Fog toggle (I created a button for that) but a streamline tool to control Fog's Start, Fog's End and its Intensity.
 
@@ -74,22 +74,7 @@ Setup for streamline tool:
 	Default Nvil hotkey for this: < None >
 
 *********************************************************************
-Toggle Grid <Ctrl+Alt+Shift+G>
-*********************************************************************
-
-.. admonition:: Reference
-	:class: refbox
-
-	:Menu:      :menuselection:`Viewport Context Menu --> Toggle Grid Visibility$`
-	:Default Hotkey: < None >
-
-Toggle Grid on the viewport.
-
-.. note::
-	Rationale behind using < Ctrl+Alt+Shift+G > key: This is an experiment. Why not just 'G'? because I find it such a waste to use a highly productive key on a rarely used action.
-
-*********************************************************************
-Zoom Sel <Z>
+Zoom Selection <Z>
 *********************************************************************
 
 .. admonition:: Reference
